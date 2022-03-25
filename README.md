@@ -1,2 +1,2 @@
-# aval-individual
-Individual evaluation component of the course Curricular Development Activity (Atividade de Desenvolvimento Curricular))
+# Individual evaluation
+This repository holds my individual evaluation regarding the course Curricular Development Activity.
