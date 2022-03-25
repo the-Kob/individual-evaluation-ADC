@@ -12,6 +12,8 @@ This repository holds my individual evaluation regarding the course Curricular D
 
 **Email**: gcn.pereira@campus.fct.unl.pt
 
+**Portfolio**: https://kob-gp.itch.io
+
 ## Table of Contents
 - **exercicio**: has the source code of my project
 - **media**: has all the media pieces related to this repository, including the required ***video***.
