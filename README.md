@@ -14,4 +14,4 @@ This repository holds my individual evaluation regarding the course Curricular D
 
 ## Table of Contents
 - **exercicio**: has the source code of my project
-- **media**: has the name suggests, holds all the media pieces related to this repository, including the required ***video***.
+- **media**: has all the media pieces related to this repository, including the required ***video***.
