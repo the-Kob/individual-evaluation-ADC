@@ -3,6 +3,9 @@ This repository holds my individual evaluation regarding the course Curricular D
 
 
 ## Personal Information
+
+![This is my face. Beautiful, I know.](https://github.com/the-Kob/individual-evaluation-ADC/blob/main/media/0c3d4a7c-e292-45fe-b5bf-c57172c54a1f.jpg)
+
 Name: Guilherme Pereira
 
 Student number: 57066
