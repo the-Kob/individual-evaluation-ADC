@@ -10,6 +10,7 @@ Name: Guilherme Pereira
 
 Student number: 57066
 
+Email: gcn.pereira@campus.fct.unl.pt
 
 ## Table of Contents
 - **exercicio**: has the source code of my project
