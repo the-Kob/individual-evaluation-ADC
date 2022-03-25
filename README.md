@@ -1,6 +1,8 @@
 # Individual Evaluation - ADC
 This repository holds my individual evaluation regarding the course Curricular Development Activity taught at [NOVA School of Science and Technology](https://www.fct.unl.pt/en).
 
+This project was accomplished under the guidance of the professors [Carlos Damásio](https://www.di.fct.unl.pt/pessoas/docentes/carlos-augusto-isaac-pilo-viegas-damasio), [Henrique Domingos](https://www.di.fct.unl.pt/pessoas/docentes/henrique-joao-lopes-domingos), [João Leitão](https://www.di.fct.unl.pt/pessoas/docentes/joao-leitao) and [Pedro Medeiros](https://www.di.fct.unl.pt/pessoas/docentes/pedro-abilio-duarte-de-medeiros).
+
 
 ## Personal Information
 
