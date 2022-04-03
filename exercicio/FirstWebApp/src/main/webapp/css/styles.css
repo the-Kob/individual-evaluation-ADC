@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.intro{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.title{
+    font-size: 60px;
+    color: rgb(45, 45, 130);
+}
+
+.subtitle{
+    font-size: 25px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+.nav__btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn{
+    padding: .5rem 1rem;
+    background-color: rgb(45, 45, 130);
+    color: #fff;
+}
+
+header{
+    padding: 1rem 0;
+}
+
+.btn-role{
+    display: inline-block;
+    text-align: center;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid black;
+}
+
+.admin-area{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.myinfo{
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+.btn-logout{
+    padding: .5rem 1rem;
+    text-decoration: none;
+    background-color: rgb(45, 45, 130);
+    border-radius: .5rem;
+    color: #fff;
+}
+
+.field__title{
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(45, 45, 130);
+    display: inline-block;
+}
+
+body{
+    padding: 0 1rem;
+}
+
+.user-area{
+    margin-top: 2rem;
+}
+
+.user-area,
+.change-user-area,
+.change-pass-area,
+.token-area{
+    width: 100%;
+    max-width: 750px;
+    padding: 2rem;
+    margin: 3rem 0;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+.change-user-area p,
+.change-pass-area p{
+    font-size: 22px;
+    font-weight: bold;
+    color:rgb(45, 45, 130);
+    padding-bottom: 1rem;
+}
+
+.info-change{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-change-container{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.user-area,
+.info-change-container label{
+    margin-right: .2rem;
+    font-weight: bold;
+    color:rgb(45, 45, 130);
+}
+
+.info-change-container input{
+    margin-right: 1rem;
+}

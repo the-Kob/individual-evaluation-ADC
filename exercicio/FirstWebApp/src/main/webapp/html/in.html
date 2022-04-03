@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="content-type"
+	content="application/xhtml+xml; charset=UTF-8" />
+<link rel="stylesheet" href="/css/styles.css">
+
+<title>Individual Evaluation - 57066</title>
+
+<script src="/scripts/in.js"></script>
+</head>
+
+<body onload="load()">
+
+   <header>
+        <p class="btn-role" id="role_color">---</p>
+    </header>
+
+    <div class="container intro">
+        <h2 class="title">Hello!</h2>
+        <h3 class="subtitle1">This is your personal page.</h3>
+    	<h3 class="subtitle1">Here you can see your info and what operations you can do.</h3>
+    </div>
+
+    <div class="container myinfo">
+        <div class="myinfo__role">
+            <p class="field__title">Role</p>
+            <p id="info_role">-----</p>
+        </div>
+        <div class="myinfo__username">
+            <p class="field__title">Username</p>
+            <p id="info_user">-----</p>
+        </div>
+        <div class="myinfo__email">
+            <p class="field__title">Email</p>
+            <p id="info_email">-----</p>
+        </div>
+        <div class="myinfo__name">
+            <p class="field__title">Name</p>
+            <p id="info_name">-----</p>
+        </div>
+        <div class="myinfo__visibility">
+            <p class="field__title">Visibility</p>
+            <p id="info_vis">-----</p>
+        </div>
+        <div class="myinfo__homephone">
+            <p class="field__title">Home Phone</p>
+            <p id="info_hp">-----</p>
+        </div>
+        <div class="myinfo__mobilephone">
+            <p class="field__title">Mobile Phone</p>
+            <p id="info_mp">-----</p>
+        </div>
+        <div class="myinfo__address">
+            <p class="field__title">Address</p>
+            <p id="info_address">-----</p>
+        </div>
+        <div class="myinfo__nif">
+            <p class="field__title">NIF</p>
+            <p id="info_nif">-----</p>
+        </div>
+    </div>
+
+    <div class="container admin-area">
+        <p class="title">Operations</p>
+        <form action="">
+            <div class="admin-ops">
+                <label for="">Select your option</label>
+                <select name="options" id="options" onchange="changeDivs()">
+                    <option value="base">...</option>
+                    <option value="logout">Logout</option>
+                    <option value="remove">Remove user</option>
+                    <option value="list">List of users</option>
+                    <option value="change-info">Change user's info</option>
+                    <option value="change-pass">Change user's password</option>
+                    <option value="token">Current session's token</option>
+                </select>
+            </div>
+        </form>
+    </div>
+  
+    <!-- LOGOUT DIV -->
+    <div class="logout-area" id="logout-area">
+        <a onclick="logout()" type="button" class="btn-logout">LOGOUT</a>
+    </div>
+
+    <!-- USER REMOVE DIV -->
+    <div class="user-area" id="user-area">
+        <form action="">
+            <label for="">Username to remove</label>
+            <input type="text">
+        </form>
+    </div>
+
+    <!-- LIST OF USERS DIV -->
+    <div class="list-area" id="list-area">
+
+    </div>
+
+    <!-- CHANGE INFO DIV -->
+    <div class="change-user-area" id="change-user-area">
+        <p>Change a user's info</p>
+        <form class="info-change" action="">
+            <div class="info-change-container">
+                <label for="">Username</label>
+                    <input type="text">
+            </div>
+
+            <div class="info-change-container">
+                <label for="">New Email</label>
+                    <input type="text">
+            </div>
+
+            <div class="info-change-container">
+                <label for="">New Name</label>
+                    <input type="text">
+            </div>
+
+            <div class="info-change-container">
+                <label for="">New Visibility</label>
+                    <input type="text">
+            </div>
+
+            <div class="info-change-container">
+                <label for="">New Home Phone</label>
+                    <input type="text">
+            </div>
+
+            <div class="info-change-container">
+                <label for="">New Mobile Phone</label>
+                    <input type="text">
+            </div>
+
+            <div class="info-change-container">
+                <label for="">New Address</label>
+                    <input type="text">
+            </div>
+
+            <div class="info-change-container">
+                <label for="">New NIF</label>
+                    <input type="text">
+            </div>
+        </form>
+    </div>
+
+    <!-- CHANGE PASS DIV -->
+    <div class="change-pass-area" id="change-pass-area">
+        <p>Change your password</p>
+        <div class="info-change-container">
+            <label for="">Previous Password</label>
+                <input type="text" required>
+            <label for="">New Password</label>
+                <input type="text" required>
+            <label for="">Confirmation</label>
+                <input type="text" required>
+        </div>
+    </div>
+
+    <!-- TOKEN DIV -->
+    <div class="token-area" id="token-area">
+        <div class="token__role">
+            <p class="field__title">Role</p>
+            <p id="token_role"></p>
+        </div>
+        <div class="token__role">
+            <p class="field__title">Username</p>
+            <p id="token_user"></p>
+        </div>
+        <div class="token__role">
+            <p class="field__title">Token ID</p>
+            <p id="token_id"></p>
+        </div>
+        <div class="token__role">
+            <p class="field__title">Token from</p>
+            <p id="token_from"></p>
+        </div>
+        <div class="token__role">
+            <p class="field__title">Token to</p>
+            <p id="token_to"></p>
+        </div>
+    </div>
+</body>
+    
+</html>
