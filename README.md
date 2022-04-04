@@ -17,4 +17,4 @@ This project was accomplished under the guidance of the professors [Carlos Damá
 
 ## Table of Contents
 - **exercicio**: has the source code of my project.
-- **media**: has all the media pieces related to this repository, including the required ***video***.
+- **media**: has all the media pieces related to this repository.
